@@ -78,107 +78,107 @@ db.serialize(() => {
   // Inserir dados de exemplo para produtos
   const products = [
     {
-      name: "Timeless Toys Skins",
+      name: "Caçadores de Bugs",
       description:
-        "Skin Pack clássico para quem quer diversão sem limites no mundo dos blocos.",
-      price: 0.0,
+        "<strong>Descrição:</strong> Um jogo de tiro ao alvo onde o jogador precisa clicar rapidamente nos bugs que aparecem aleatoriamente na tela antes que eles infectem o código. <br><strong>Missão:</strong> Detecção precoce de defeitos, importância de testes regressivos.",
+      price: 199.00,
       image: "images/produtos/imagem1.png",
     },
     {
-      name: "adidas Adventurers Add-On",
+      name: "Jogo 2",
       description:
-        "Pacote oficial da Adidas com aventuras épicas e estilo inconfundível.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem2.png",
     },
     {
-      name: "Realism Shades",
+      name: "Jogo 3",
       description:
-        "Transforme seu mundo com gráficos realistas e sombreados cinematográficos.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 660.0,
       image: "images/produtos/imagem3.png",
     },
     {
-      name: "Senna World",
+      name: "Jogo 4",
       description:
-        "Reviva a emoção das pistas com Senna em uma experiência de corrida no Minecraft.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 217.0,
       image: "images/produtos/imagem4.png",
     },
     {
-      name: "Artemis: Rocket Build",
+      name: "Jogo 5",
       description:
-        "Monte seu próprio foguete e explore o espaço como um verdadeiro engenheiro da NASA.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem5.png",
     },
     {
-      name: "Immersive Horror Add-on",
+      name: "Jogo 6",
       description:
-        "Prepare-se para sustos reais com essa aventura sombria em blocos.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 830.0,
       image: "images/produtos/imagem6.png",
     },
     {
-      name: "Hermitcraft Season 9 Map",
+      name: "Jogo 7",
       description:
-        "Explore o mapa lendário da nona temporada do Hermitcraft com sua comunidade favorita.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem7.png",
     },
     {
-      name: "Horses+",
+      name: "Jogo 8",
       description:
-        "Adicione cavalos únicos ao seu mundo, incluindo raças místicas e com habilidades especiais.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 490.0,
       image: "images/produtos/imagem8.png",
     },
     {
-      name: "One Block",
+      name: "Jogo 9",
       description:
-        "Comece em um único bloco e construa tudo a partir dele! Um dos desafios mais famosos do Minecraft.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 490.0,
       image: "images/produtos/imagem9.png",
     },
     {
-      name: "A Minecraft Movie DLC",
+      name: "Jogo 10",
       description:
-        "Pacote oficial do filme com skins e aventuras dos personagens das telonas.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem10.png",
     },
     {
-      name: "Young Gru",
+      name: "Jogo 11",
       description:
-        "A skin do jovem Gru chegou para dominar o mundo dos blocos com estilo.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem11.png",
     },
     {
-      name: "A Minecraft Movie Hero Pack",
+      name: "Jogo 12",
       description:
-        "Skins heroicas para fãs do universo cinematográfico Minecraft!",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem12.png",
     },
     {
-      name: "Blue Jeans",
+      name: "Jogo 13",
       description:
-        "Estilo casual e moderno com esse pacote de skins temáticas em jeans.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 310.0,
       image: "images/produtos/imagem13.png",
     },
     {
-      name: "Crafty Costumes",
+      name: "Jogo 14",
       description:
-        "Entre no clima de Halloween com fantasias criativas para seu avatar.",
+       "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 0.0,
       image: "images/produtos/imagem14.png",
     },
     {
-      name: "Bloom",
+      name: "Jogo 15",
       description:
-        "Pacote fofo e florido para quem curte cores suaves e skins criativas.",
+        "<strong>Descrição:</strong> escrever a descrição aqui. <br><strong>Missão:</strong> escrever a missão aqui.",
       price: 310.0,
       image: "images/produtos/imagem15.png",
     },

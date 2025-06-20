@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         cartItem.className = 'cart-item mb-4';
                         cartItem.innerHTML = `
                             <legend>${item.name}</legend>
-                            <p>Preço: R$${(item.price).toFixed(2)}</p>
-                            <p>Quantidade: ${item.quantity}</p>
-                            <p>Total: R$${(item.price * item.quantity).toFixed(2)}</p>
+                            <p>Preço: <strong>R$${(item.price).toFixed(2)}</strong></p>
+                            <p>Quantidade: <strong>${item.quantity}</strong></p>
+                            <p>Total: <strong>R$${(item.price * item.quantity).toFixed(2)}</strong></p>
                             <button class="btn btn-danger remove-from-cart" data-product-id="${item.productId}">Remover</button>
                             <hr style="border: none; border-top: 1px solid #727171; height: 1px; margin: 20px 0;">
                         `;
@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
 
                     // Atualizar os totais no DOM
-                    totalProductsElement.innerHTML = `Valor total do(s) Produto(s): R$${totalProducts.toFixed(2)}`;
-                    shippingFeeElement.innerHTML = `Frete: R$${shippingFee.toFixed(2)}`;
-                    totalWithShippingElement.innerHTML = `Valor total + Frete fixo: R$${(totalProducts + shippingFee).toFixed(2)}`;
+                    totalProductsElement.innerHTML = `Valor total do(s) Produto(s): <strong>R$${totalProducts.toFixed(2)}</strong>`;
+                    shippingFeeElement.innerHTML = `Frete: <strong>R$${shippingFee.toFixed(2)}</strong>`;
+                    totalWithShippingElement.innerHTML = `Valor total + Frete fixo: <strong>R$${(totalProducts + shippingFee).toFixed(2)}</strong>`;
 
                     // Adicionar evento de clique para os botões "Remover"
                     document.querySelectorAll('.remove-from-cart').forEach(button => {
